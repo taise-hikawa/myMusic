@@ -15,6 +15,9 @@
 		D33D538524A1EE3200895D25 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D33D538324A1EE3200895D25 /* LaunchScreen.storyboard */; };
 		D33D539024A1EE3300895D25 /* myMusicTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D33D538F24A1EE3300895D25 /* myMusicTests.swift */; };
 		D33D539B24A1EE3300895D25 /* myMusicUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D33D539A24A1EE3300895D25 /* myMusicUITests.swift */; };
+		D33D53AB24A1FCBB00895D25 /* cymbal.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D33D53A824A1FCBB00895D25 /* cymbal.mp3 */; };
+		D33D53AC24A1FCBB00895D25 /* guitar.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D33D53A924A1FCBB00895D25 /* guitar.mp3 */; };
+		D33D53AD24A1FCBB00895D25 /* backmusic.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D33D53AA24A1FCBB00895D25 /* backmusic.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +52,9 @@
 		D33D539624A1EE3300895D25 /* myMusicUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = myMusicUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D33D539A24A1EE3300895D25 /* myMusicUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = myMusicUITests.swift; sourceTree = "<group>"; };
 		D33D539C24A1EE3300895D25 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D33D53A824A1FCBB00895D25 /* cymbal.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = cymbal.mp3; sourceTree = "<group>"; };
+		D33D53A924A1FCBB00895D25 /* guitar.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = guitar.mp3; sourceTree = "<group>"; };
+		D33D53AA24A1FCBB00895D25 /* backmusic.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = backmusic.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +112,9 @@
 				D33D538124A1EE3200895D25 /* Assets.xcassets */,
 				D33D538324A1EE3200895D25 /* LaunchScreen.storyboard */,
 				D33D538624A1EE3200895D25 /* Info.plist */,
+				D33D53AA24A1FCBB00895D25 /* backmusic.mp3 */,
+				D33D53A824A1FCBB00895D25 /* cymbal.mp3 */,
+				D33D53A924A1FCBB00895D25 /* guitar.mp3 */,
 			);
 			path = myMusic;
 			sourceTree = "<group>";
@@ -232,6 +241,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D33D53AC24A1FCBB00895D25 /* guitar.mp3 in Resources */,
+				D33D53AD24A1FCBB00895D25 /* backmusic.mp3 in Resources */,
+				D33D53AB24A1FCBB00895D25 /* cymbal.mp3 in Resources */,
 				D33D538524A1EE3200895D25 /* LaunchScreen.storyboard in Resources */,
 				D33D538224A1EE3200895D25 /* Assets.xcassets in Resources */,
 				D33D538024A1EE2F00895D25 /* Main.storyboard in Resources */,
@@ -435,6 +447,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = GQ7W4PWBP6;
 				INFOPLIST_FILE = myMusic/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -452,6 +465,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = GQ7W4PWBP6;
 				INFOPLIST_FILE = myMusic/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
